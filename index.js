@@ -24,6 +24,16 @@ function imagClassId() {
   imageId.style.visibility = 'visible'
 }
 function backgroundchange() {
-    let backgroundColor= document.body.style.backgroundColor = "red"; 
+    let backgroundColor= document.querySelector('body')
     console.log(backgroundColor)   
+    backgroundColor.style.backgroundColor = "grey"; 
     }
+function colorOfPrice() {
+    let priceColorChange =  document.querySelectorAll('colorChange')
+    console.log(priceColorChange)
+
+    if ( priceColorChange[0].style.color = "blue") {
+    priceColorChange[0].style.color = "yellow";
+    }
+    }
+     }

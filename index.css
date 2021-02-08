@@ -27,6 +27,12 @@ border-inline-width: 2px;
 width: 5px;
 
   }
+  img {
+    width: 200px;
+    height: 121px;
+  
+
+  }
   .footer {
     position: fixed;
     left: 0;
