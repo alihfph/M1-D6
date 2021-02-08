@@ -36,4 +36,4 @@ function colorOfPrice() {
     priceColorChange[0].style.color = "yellow";
     }
     }
-     }
+   
